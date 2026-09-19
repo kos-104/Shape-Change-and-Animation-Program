@@ -30,5 +30,5 @@ This was built as a passion project, meant to be a fun, visual reminder that Exc
 - Toggle between "video" and regular Excel view with a single button
 
 **Under the Hood**
-- Shape creation is built as an early object-oriented model — a self-contained class module that responds directly to worksheet events
+- Shape creation is built as a lightweight object-oriented model — a self-contained class module that responds directly to worksheet events
 - Shape creation and animation are kept in separate pieces of code, keeping event-driven logic and animation logic cleanly apart
