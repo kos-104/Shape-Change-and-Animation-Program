@@ -5,6 +5,9 @@
 ![VBA](https://img.shields.io/badge/Language-VBA-blue.svg)
 ![Excel](https://img.shields.io/badge/Platform-Excel-217346.svg)
 ![Animation](https://img.shields.io/badge/Feature-3D%20Rotation-brightgreen.svg)
+![Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey.svg)
+
+![Demo](docs/demo.gif)
 
 ## Description
 
@@ -32,3 +35,14 @@ This was built as a passion project, meant to be a fun, visual reminder that Exc
 **Under the Hood**
 - Shape creation is built as a lightweight object-oriented model — a self-contained class module that responds directly to worksheet events
 - Shape creation and animation are kept in separate pieces of code, keeping event-driven logic and animation logic cleanly apart
+
+## Requirements
+- Excel with macros enabled (developed and tested on Excel 365)
+- No external references or add-ins required
+
+## How to Use
+1. Open the provided `.xlsm` file
+2. Follow the on-screen instructions provided directly on the Excel sheet
+
+---
+*Built to prove that Excel still has surprises left in it.*
