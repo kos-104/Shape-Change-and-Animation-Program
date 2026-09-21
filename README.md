@@ -15,7 +15,7 @@
   
   Users generate shapes from dropdown selections, assign them a fill pattern, and set them spinning via multiple rotation modes — controlled by a simple set of checkboxes. Shape creation lives within a dedicated class module that listens for worksheet events, responding live after the user types into a cell. A separate module handles the animation itself, adding depth and shadows to make shapes feel three-dimensional, shifting their colors frame by frame, with a simple stop button to halt any running animations.
   
-  This was built as a passion project, meant to be a fun, visual reminder that Excel can be appreciably playful when you go beyond its default look and feel.
+  This was built as a passion project, meant to be a fun, visual reminder that Excel can be appreciably playful when you venture beyond its default look and feel.
   
   ## Key Features
   
