@@ -11,21 +11,21 @@
   
   ## Description
   
-  Most people think of Excel as a grid for numbers. This project was built to challenge that assumption — showing that, backed entirely by VBA, Excel can render live 3D graphics, colorful shading, and animation using nothing but its own native shape engine.
+  Most people think of Excel as a grid for numbers. This project was built to challenge that assumption — showing that, backed entirely by VBA, Excel can render live 3D graphics, colorful shading, and animation using nothing but its own native engine.
   
-  Users generate shapes from dropdown selections, assign them a fill pattern, and set them spinning via multiple rotation modes — controlled by a simple set of checkboxes. Shape creation lives within a dedicated class module that listens for worksheet events, reacting live as the user types into a cell. A separate module handles the animation itself, adding depth and shadows to make shapes feel three-dimensional, shifting their colors frame by frame, with a simple stop button to interrupt a running animation at any time.
+  Users generate shapes from dropdown selections, assign them a fill pattern, and set them spinning via multiple rotation modes — controlled by a simple set of checkboxes. Shape creation lives within a dedicated class module that listens for worksheet events, responding live after the user types into a cell. A separate module handles the animation itself, adding depth and shadows to make shapes feel 3-D, shifting their colors frame by frame, with a simple stop button to halt any running animations.
   
-  This was built as a passion project, meant to be a fun, visual reminder that Excel can be genuinely playful when you push past its default look and feel.
+  This was built as a passion project, meant to be a fun, visual reminder that Excel can be genuinely playful when you go beyond its default look and feel.
   
   ## Key Features
   
   **Shape Creation**
   - Pick a shape from a dropdown list — circles, stars, arrows, and more — no drawing required
-  - Every shape gets a randomized, multi-color blend fill, so no two shapes look exactly alike
+  - Every shape gets a randomized, multi-color blend fill, so no two shapes look identical
   - Choose how big the shape should be: a percentage you type in, from 1 to 100, with out-of-range or negative values correcting automatically
   
   **Animation**
-  - Seven spinning modes, toggled with checkboxes: spin on one axis, two at once, or all three together, with speed and direction varying as rotations accumulate
+  - Seven spinning modes, toggled with checkboxes — spin on one axis, two at once, or all three together, with speed and direction varying as rotations accumulate
   - Shading and shadow effects that make the spin look genuinely three-dimensional instead of flat
   - Colors shift a little on every frame, so the animation never looks static or repetitive
   - Start and stop the animation with a click, with no freezing or waiting
