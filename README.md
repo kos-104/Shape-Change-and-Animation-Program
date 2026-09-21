@@ -13,7 +13,7 @@
   
   Most people think of Excel as a grid for numbers. This project was built to challenge that assumption — showing that, backed entirely by VBA, Excel can render live 3D graphics, colorful shading, and animation using nothing but its own native engine.
   
-  Users generate shapes from dropdown selections, assign them a fill pattern, and set them spinning via multiple rotation modes — controlled by a simple set of checkboxes. Shape creation lives within a dedicated class module that listens for worksheet events, responding live after the user types into a cell. A separate module handles the animation itself, adding depth and shadows to make shapes feel 3-D, shifting their colors frame by frame, with a simple stop button to halt any running animations.
+  Users generate shapes from dropdown selections, assign them a fill pattern, and set them spinning via multiple rotation modes — controlled by a simple set of checkboxes. Shape creation lives within a dedicated class module that listens for worksheet events, responding live after the user types into a cell. A separate module handles the animation itself, adding depth and shadows to make shapes feel three-dimensional, shifting their colors frame by frame, with a simple stop button to halt any running animations.
   
   This was built as a passion project, meant to be a fun, visual reminder that Excel can be genuinely playful when you go beyond its default look and feel.
   
@@ -26,7 +26,7 @@
   
   **Animation**
   - Seven spinning modes, toggled with checkboxes — spin on one axis, two at once, or all three together, with speed and direction varying as rotations accumulate
-  - Shading and shadow effects that make the spin look genuinely three-dimensional instead of flat
+  - Shading and shadow effects that make the spin look genuinely 3D instead of flat
   - Colors shift a little on every frame, so the animation never looks static or repetitive
   - Start and stop the animation with a click, with no freezing or waiting
   - Toggle between "video" and regular Excel view with a single button
