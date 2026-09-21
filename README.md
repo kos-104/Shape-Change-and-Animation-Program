@@ -1,6 +1,6 @@
   # Excel VBA Shape Animator
   
-  **A checkbox-driven 3D animation demo for Excel — proving that Excel is capable of far more than spreadsheets.**
+  **A checkbox-driven 3D animation demo for Excel — proving that Excel is capable of more than just spreadsheets.**
   
   ![VBA](https://img.shields.io/badge/Language-VBA-blue.svg)
   ![Excel](https://img.shields.io/badge/Platform-Excel-217346.svg)
