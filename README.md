@@ -13,7 +13,7 @@
 
 Most people think of Excel as a grid for numbers. This project was built to challenge that assumption — showing that, backed entirely by VBA, Excel can render live 3D graphics, colorful shading, and animation using only its native engine.
 
-Users generate shapes from dropdown selections, assign them a fill pattern, and set them spinning via multiple rotation modes — controlled by three checkboxes. Shape creation resides within a dedicated class module that listens for worksheet events, responding live after the user types into a cell. A separate module handles the animation itself, adding depth and shadows to make shapes feel three-dimensional, shifting their colors frame by frame, with a simple stop button to pause a running animation.
+Users generate shapes from dropdown selections, assign them a fill pattern, and set them spinning via multiple rotation modes — controlled by simple checkboxes. Shape creation resides within a dedicated class module that listens for worksheet events, responding live after the user types into a cell. A separate module handles the animation itself, adding depth and shadows to make shapes appear three-dimensional, shifting their colors frame by frame, with a graphical stop button to pause any running animations.
 
 This was built as a passion project, meant to be a fun, visual reminder that Excel can be appreciably playful when you venture beyond its default look and feel.
 
