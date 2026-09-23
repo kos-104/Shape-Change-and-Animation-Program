@@ -11,9 +11,9 @@
 
 ## Description
 
-Most people think of Excel as a grid for numbers. This project was built to challenge that assumption — showing that, backed entirely by VBA, Excel can render live 3D graphics, colorful shading, and animation using nothing but its own native engine.
+Most people think of Excel as a grid for numbers. This project was built to challenge that assumption — showing that, backed only by VBA, Excel can render live 3D graphics, colorful shading, and animation using nothing but its own native engine.
 
-Users generate shapes from dropdown selections, assign them a fill pattern, and set them spinning via multiple rotation modes — controlled by a simple set of checkboxes. Shape creation lives within a dedicated class module that listens for worksheet events, responding live after the user types into a cell. A separate module handles the animation itself, adding depth and shadows to make shapes feel three-dimensional, shifting their colors frame by frame, with a simple stop button to halt any running animations.
+Users generate shapes from dropdown selections, assign them a fill pattern, and set them spinning via multiple rotation modes — controlled by three checkboxes. Shape creation resides within a dedicated class module that listens for worksheet events, responding live after the user types into a cell. A separate module handles the animation itself, adding depth and shadows to make shapes feel three-dimensional, shifting their colors frame by frame, with a simple stop button to pause a running animation.
 
 This was built as a passion project, meant to be a fun, visual reminder that Excel can be appreciably playful when you venture beyond its default look and feel.
 
@@ -29,7 +29,7 @@ This was built as a passion project, meant to be a fun, visual reminder that Exc
 - Shading and shadow effects that make the spin look genuinely 3D instead of flat
 - Colors shift a little on every frame, so the animation never looks static or repetitive
 - Start and stop the animation with a click, with no freezing or waiting
-- Toggle between "video" and regular Excel view with a single button
+- Toggle between "video" mode and the default Excel view with a single button
 
 **Under the Hood**
 - Shape creation is built as a lightweight object-oriented model — a self-contained class module that responds directly to worksheet events
