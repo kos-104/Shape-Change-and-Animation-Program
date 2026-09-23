@@ -20,7 +20,7 @@ This was built as a passion project, meant to be a fun, visual reminder that Exc
 ## Key Features
 
 **Shape Creation**
-- Pick a shape from a dropdown list — circles, stars, arrows, and more — no drawing required
+- Pick a shape from a dropdown list — circles, diamonds, arrows, and more — no drawing required
 - Every shape gets a randomized, multi-color blend fill, so no two shapes look identical
 - Choose how big the shape should be: a percentage you type in, from 1 to 100, with out-of-range or negative values correcting automatically
 
