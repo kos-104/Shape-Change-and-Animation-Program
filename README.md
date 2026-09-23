@@ -7,8 +7,6 @@
 ![Animation](https://img.shields.io/badge/Feature-3D%20Rotation-brightgreen.svg)
 ![Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey.svg)
 
-![Demo](docs/demo.gif)
-
 ## Description
 
 Most people think of Excel as a grid for numbers. This project was built to challenge that assumption — showing that, backed entirely by VBA, Excel can render live 3D graphics, colorful shading, and animation using only its native engine.
