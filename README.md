@@ -44,4 +44,4 @@ This was built as a passion project, meant to be a fun, visual reminder that Exc
 2. Follow the on-screen instructions provided directly on the Excel sheet
 
 ---
-*Built to reveal that Microsoft Excel can always surprise us.*
+*Built to reveal that Microsoft Excel is full of surprises.*
