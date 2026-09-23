@@ -11,7 +11,7 @@
 
 ## Description
 
-Most people think of Excel as a grid for numbers. This project was built to challenge that assumption — showing that, backed only by VBA, Excel can render live 3D graphics, colorful shading, and animation using nothing but its own native engine.
+Most people think of Excel as a grid for numbers. This project was built to challenge that assumption — showing that, backed entirely by VBA, Excel can render live 3D graphics, colorful shading, and animation using nothing but its own native engine.
 
 Users generate shapes from dropdown selections, assign them a fill pattern, and set them spinning via multiple rotation modes — controlled by three checkboxes. Shape creation resides within a dedicated class module that listens for worksheet events, responding live after the user types into a cell. A separate module handles the animation itself, adding depth and shadows to make shapes feel three-dimensional, shifting their colors frame by frame, with a simple stop button to pause a running animation.
 
